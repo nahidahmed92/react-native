@@ -9,6 +9,7 @@ import CounterScreen from './src/screens/CounterScreen.js';
 import ColorScreen from './src/screens/ColorScreen.js';
 import AdjustableColorScreen from './src/screens/AdjColorScreen.js';
 import AdjustableColorScreenRefactored from './src/screens/AdjColorScreenRefactor.js';
+import CounterScreenRefactor from './src/screens/CounterScreenRefactor.js';
 
 const navigator = createStackNavigator(
   {
@@ -20,6 +21,7 @@ const navigator = createStackNavigator(
     Color: ColorScreen,
     AdjColor: AdjustableColorScreen,
     AdjColorRef: AdjustableColorScreenRefactored,
+    CounterRef: CounterScreenRefactor,
   },
   {
     initialRouteName: 'Home',

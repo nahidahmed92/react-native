@@ -15,6 +15,10 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate('AdjColorRef')}
         title="Adjustable Color Screen [Refactored]"
       />
+      <Button
+        onPress={() => navigation.navigate('CounterRef')}
+        title="Counter Screen [Refactored]"
+      />
     </View>
   );
 };
