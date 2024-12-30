@@ -19,6 +19,7 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate('CounterRef')}
         title="Counter Screen [Refactored]"
       />
+      <Button onPress={() => navigation.navigate('Text')} title="Text Screen" />
     </View>
   );
 };
