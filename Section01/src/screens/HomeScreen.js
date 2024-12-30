@@ -20,6 +20,7 @@ const HomeScreen = ({ navigation }) => {
         title="Counter Screen [Refactored]"
       />
       <Button onPress={() => navigation.navigate('Text')} title="Text Screen" />
+      <Button onPress={() => navigation.navigate('Box')} title="Box Screen" />
     </View>
   );
 };
@@ -27,6 +28,7 @@ const HomeScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   text: {
     fontSize: 30,
+    textAlign: 'center',
   },
 });
 
